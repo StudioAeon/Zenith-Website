@@ -1,15 +1,12 @@
-import React from "react";
-import { Link } from "react-router-dom";
-
 function NotFound() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 text-gray-800 px-4">
-      <h1 className="text-6xl font-bold text-red-500 mb-4">404</h1>
-      <p className="text-2xl font-semibold mb-2">Page Not Found</p>
-      <p className="mb-6 text-gray-600">Sorry, the page you are looking for does not exist.</p>
-      <Link to="/" className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
-        Go Home
-      </Link>
+    <div className="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6 bg-mocha-base">
+      <div className="max-w-screen-sm mx-auto text-center">
+        <h1 className="text-8xl lg:text-7xl xl:text-9xl font-black tracking-tight mb-4 text-mocha-text">404</h1>
+        <p className="text-3xl md:text-4xl font-bold tracking-tight mb-4 text-mocha-text">Oops, something's missing.</p>
+        <p className="text-lg font-light mb-4 text-mocha-subtext0"> Sorry we can't find that page. You'll find a lot to explore on the homepage. </p>
+        <a href="/" className="block w-full px-5 py-3 text-xl font-medium text-mocha-surface0 bg-mocha-lavender border border-transparent rounded-md shadow focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-mocha-overlay0 focus:ring-offset-mocha-overlay2 sm:px-10"> Back to Homepage </a>
+      </div>
     </div>
   );
 }
