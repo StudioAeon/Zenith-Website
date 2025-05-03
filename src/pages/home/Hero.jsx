@@ -1,4 +1,4 @@
-import Zenith512 from '../../../public/assets/Zenith-512.png';
+import Zenith512 from '../../assets/Zenith-512.png';
 
 function Hero() {
     return (

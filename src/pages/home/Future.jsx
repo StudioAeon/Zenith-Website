@@ -1,4 +1,4 @@
-import Placeholder3 from '../../../public/assets/Placeholder3.png';
+import Placeholder3 from '../../assets/Placeholder3.png';
 
 function Future() {
     return (

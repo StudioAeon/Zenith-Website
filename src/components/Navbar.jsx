@@ -1,5 +1,5 @@
 import { useCallback, useState } from "react";
-import Zenith256 from "../../public/assets/Zenith-256.png";
+import Zenith256 from '../assets/zenith-256.png';
 import ThemeButton from './ThemeButton';
 import MenuButton from './MenuButton';
 import DownloadButton from "./DownloadButton";

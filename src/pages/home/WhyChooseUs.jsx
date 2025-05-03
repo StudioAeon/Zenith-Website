@@ -1,4 +1,4 @@
-import Placeholder from '../../../public/assets/Placeholder.png';
+import Placeholder from '../../assets/Placeholder.png';
 
 function Why() {
     return (
