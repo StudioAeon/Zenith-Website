@@ -10,7 +10,7 @@ const Navbar = () => {
 
    const navLinks = [
       { href: "/", title: "Home" },
-      { href: "https://docs.hazelengine.com/", title: "Documentation" },
+      { href: "https://zenithdocs.com/", title: "Documentation" },
       { href: "/devblog", title: "Devblog"}
    ];
 
